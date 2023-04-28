@@ -1,0 +1,29 @@
+.status-badge {
+    font-weight: lighter;
+    font-style: italic;
+  }  
+  
+  .active {
+    color: green;
+  }
+  
+  .inactive {
+    color: gray;
+  }
+  
+  .card-text::before {
+    font-weight: bold;
+    content: attr(data-title) ": ";
+  }
+  
+  .card-text {
+    margin-left: 0.5em;
+  }
+  
+  .card-header {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+
+  
